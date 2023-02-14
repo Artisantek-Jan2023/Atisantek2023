@@ -1,0 +1,116 @@
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN     
+udp        0      0 localhost:323           0.0.0.0:*                          
+udp6       0      0 localhost:323           [::]:*                             
+Active UNIX domain sockets (only servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     STREAM     LISTENING     18194    /run/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     18196    /run/systemd/userdb/io.systemd.DynamicUser
+unix  2      [ ACC ]     STREAM     LISTENING     18197    /run/systemd/io.system.ManagedOOM
+unix  2      [ ACC ]     SEQPACKET  LISTENING     18211    /run/systemd/coredump
+unix  2      [ ACC ]     SEQPACKET  LISTENING     18212    /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     21639    /run/user/1000/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     21651    /run/user/1000/bus
+unix  2      [ ACC ]     STREAM     LISTENING     18279    /run/systemd/journal/io.systemd.journal
+unix  2      [ ACC ]     STREAM     LISTENING     21655    /run/user/1000/pulse/native
+unix  2      [ ACC ]     STREAM     LISTENING     21657    /run/user/1000/pipewire-0
+unix  2      [ ACC ]     STREAM     LISTENING     19133    /run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     19135    /run/.heim_org.h5l.kcm-socket
+unix  2      [ ACC ]     STREAM     LISTENING     12593    /run/systemd/journal/stdout
+Active Bluetooth connections (only servers)
+Proto  Destination       Source            State         PSM DCID   SCID      IMTU    OMTU Security
+Proto  Destination       Source            State     Channel
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0    352 ip-172-31-41-250.ap:ssh 103.215.237.165:58463   ESTABLISHED
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN     
+udp        0      0 ip-172-31-41-250:bootpc ip-172-31-32-1.a:bootps ESTABLISHED
+udp        0      0 localhost:323           0.0.0.0:*                          
+udp6       0      0 localhost:323           [::]:*                             
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     STREAM     LISTENING     18194    /run/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     18196    /run/systemd/userdb/io.systemd.DynamicUser
+unix  2      [ ACC ]     STREAM     LISTENING     18197    /run/systemd/io.system.ManagedOOM
+unix  2      [ ACC ]     SEQPACKET  LISTENING     18211    /run/systemd/coredump
+unix  2      [ ACC ]     SEQPACKET  LISTENING     18212    /run/udev/control
+unix  2      [ ]         DGRAM                    21636    /run/user/1000/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     21639    /run/user/1000/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     21651    /run/user/1000/bus
+unix  2      [ ACC ]     STREAM     LISTENING     18279    /run/systemd/journal/io.systemd.journal
+unix  2      [ ACC ]     STREAM     LISTENING     21655    /run/user/1000/pulse/native
+unix  2      [ ACC ]     STREAM     LISTENING     21657    /run/user/1000/pipewire-0
+unix  2      [ ACC ]     STREAM     LISTENING     19133    /run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     19135    /run/.heim_org.h5l.kcm-socket
+unix  3      [ ]         DGRAM      CONNECTED     12576    /run/systemd/notify
+unix  9      [ ]         DGRAM      CONNECTED     12589    /run/systemd/journal/dev-log
+unix  7      [ ]         DGRAM      CONNECTED     12591    /run/systemd/journal/socket
+unix  2      [ ACC ]     STREAM     LISTENING     12593    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM      CONNECTED     19375    /run/chrony/chronyd.sock
+unix  3      [ ]         STREAM     CONNECTED     21690    
+unix  2      [ ]         DGRAM      CONNECTED     21686    
+unix  2      [ ]         DGRAM      CONNECTED     21613    
+unix  3      [ ]         STREAM     CONNECTED     19211    
+unix  3      [ ]         STREAM     CONNECTED     19209    
+unix  3      [ ]         STREAM     CONNECTED     21689    
+unix  3      [ ]         DGRAM      CONNECTED     21638    
+unix  3      [ ]         STREAM     CONNECTED     19909    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     19876    
+unix  3      [ ]         STREAM     CONNECTED     19334    
+unix  3      [ ]         STREAM     CONNECTED     21573    
+unix  2      [ ]         DGRAM      CONNECTED     19350    
+unix  3      [ ]         DGRAM      CONNECTED     18498    
+unix  3      [ ]         STREAM     CONNECTED     19251    
+unix  3      [ ]         STREAM     CONNECTED     19297    /run/dbus/system_bus_socket
+unix  3      [ ]         DGRAM      CONNECTED     21637    
+unix  3      [ ]         STREAM     CONNECTED     21574    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     19210    
+unix  3      [ ]         STREAM     CONNECTED     18481    
+unix  3      [ ]         STREAM     CONNECTED     19335    /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM      CONNECTED     19283    
+unix  3      [ ]         STREAM     CONNECTED     20854    /run/systemd/journal/stdout
+unix  2      [ ]         STREAM     CONNECTED     21475    
+unix  2      [ ]         DGRAM      CONNECTED     20865    
+unix  3      [ ]         STREAM     CONNECTED     20579    
+unix  2      [ ]         DGRAM      CONNECTED     18910    
+unix  3      [ ]         STREAM     CONNECTED     20834    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM      CONNECTED     18353    
+unix  3      [ ]         STREAM     CONNECTED     18911    
+unix  3      [ ]         STREAM     CONNECTED     18487    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    19868    
+unix  3      [ ]         STREAM     CONNECTED     21641    
+unix  2      [ ]         DGRAM      CONNECTED     18280    
+unix  3      [ ]         DGRAM      CONNECTED     12578    
+unix  3      [ ]         STREAM     CONNECTED     19290    
+unix  3      [ ]         STREAM     CONNECTED     19156    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM      CONNECTED     19421    
+unix  3      [ ]         STREAM     CONNECTED     20044    
+unix  3      [ ]         STREAM     CONNECTED     19150    
+unix  3      [ ]         STREAM     CONNECTED     20045    /run/dbus/system_bus_socket
+unix  3      [ ]         DGRAM      CONNECTED     12577    
+unix  3      [ ]         STREAM     CONNECTED     19858    
+unix  3      [ ]         STREAM     CONNECTED     21642    /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM      CONNECTED     19380    
+unix  3      [ ]         STREAM     CONNECTED     19405    /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     19298    /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     19404    
+unix  3      [ ]         DGRAM      CONNECTED     18499    
+unix  3      [ ]         STREAM     CONNECTED     18912    
+unix  3      [ ]         STREAM     CONNECTED     19257    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM      CONNECTED     19193    
+unix  3      [ ]         STREAM     CONNECTED     20831    
+unix  3      [ ]         STREAM     CONNECTED     20852    
+unix  3      [ ]         STREAM     CONNECTED     20683    
+unix  3      [ ]         STREAM     CONNECTED     19866    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     20682    
+unix  2      [ ]         DGRAM      CONNECTED     18494    
+unix  3      [ ]         STREAM     CONNECTED     19877    /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     19901    
+unix  2      [ ]         DGRAM      CONNECTED     21598    
+unix  3      [ ]         STREAM     CONNECTED     20580    /run/dbus/system_bus_socket
+Active Bluetooth connections (servers and established)
+Proto  Destination       Source            State         PSM DCID   SCID      IMTU    OMTU Security
+Proto  Destination       Source            State     Channel
