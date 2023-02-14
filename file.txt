@@ -1,0 +1,13 @@
+#1. Hava a shell script name logoff.sh i want to run this script on every working day at 6pm what is the command?
+------>crontab -e
+------>0 18 * * 1-5 sh logooff.sh
+
+2. Write a shell script for creating directory directory name should be Init  in that you should add a file in that file you have to run few commands related to netstat.
+3. Have a file name .TXT it's created by HR so only  HR should be able to edit others in organization only able to view others are able to do anything  how to you set the permission.
+-------->touch HR.txt
+-------->chmod 644 HR.txt 
+4. Write a Shell script to mutiply without using * ?
+5. command to find all the files that are created in last ten days.
+------>find -type f -mtime -10
+6. What is shared library in Linux.
+7. Write a shell script for creating a user account.
