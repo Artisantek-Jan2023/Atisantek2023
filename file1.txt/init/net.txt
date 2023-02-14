@@ -1,0 +1,24 @@
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN     
+udp        0      0 localhost:323           0.0.0.0:*                          
+udp6       0      0 localhost:323           [::]:*                             
+Active UNIX domain sockets (only servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     STREAM     LISTENING     21645    /run/user/1000/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     21657    /run/user/1000/bus
+unix  2      [ ACC ]     STREAM     LISTENING     21659    /run/user/1000/pulse/native
+unix  2      [ ACC ]     STREAM     LISTENING     21663    /run/user/1000/pipewire-0
+unix  2      [ ACC ]     STREAM     LISTENING     18194    /run/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     18196    /run/systemd/userdb/io.systemd.DynamicUser
+unix  2      [ ACC ]     STREAM     LISTENING     18197    /run/systemd/io.system.ManagedOOM
+unix  2      [ ACC ]     SEQPACKET  LISTENING     18211    /run/systemd/coredump
+unix  2      [ ACC ]     SEQPACKET  LISTENING     18212    /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     19127    /run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     19129    /run/.heim_org.h5l.kcm-socket
+unix  2      [ ACC ]     STREAM     LISTENING     18291    /run/systemd/journal/io.systemd.journal
+unix  2      [ ACC ]     STREAM     LISTENING     12593    /run/systemd/journal/stdout
+Active Bluetooth connections (only servers)
+Proto  Destination       Source            State         PSM DCID   SCID      IMTU    OMTU Security
+Proto  Destination       Source            State     Channel
