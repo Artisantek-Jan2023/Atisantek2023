@@ -1,1 +1,2 @@
-telnet-23
+ssh 22
+telnet 23
