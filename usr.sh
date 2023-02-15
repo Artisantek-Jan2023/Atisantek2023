@@ -12,8 +12,10 @@ case $n in
 	read usr
 #	usr1=$usr
 #	export usr1
-	sudo useradd $usr
-	echo "user account created for $usr"
+        sudo useradd $usr
+	if [ $? -eq 0 ]; then 
+		echo "$usr user account succesful and please setup  password"
+	fi
 ;;
 2) echo "please enter user name to generate password:"
  	read usr
@@ -35,7 +37,9 @@ case $n in
 	read del
 	if [ $del = y ]; then 
 		sudo userdel $usr
+		if [ $? -eq 0 ]; then
 		echo "$usr user accout deleted"
+		fi	
 	fi
 ;;
 *) echo "Invalid input"
