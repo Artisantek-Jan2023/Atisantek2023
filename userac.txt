@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "Enter the username:"
+
+read un
+
+grep -q "$un" /etc/passwd
+
+	if [ $? -eq 0 ]
+        then
+
+		echo "$un user name is already exist"
+
+	else
+	sudo useradd $un
+	fi

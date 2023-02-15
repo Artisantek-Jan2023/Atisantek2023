@@ -1,0 +1,14 @@
+#!/bin/bash
+
+mkdir init
+
+echo -e "netstat -a \nnetstat -l" >> init/f
+
+while read $*
+
+do
+
+$f
+
+done < Init/f
+

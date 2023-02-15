@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo "Enter 1st number"
+
+read a
+
+echo "Enter 2nd number"
+
+read b
+
+c=b
+
+mul=0
+
+while [ $c -gt 0 ]; do
+        c=$(( $mul + $a ))
+        c=$(( c--1))
+done
+
+echo " the product of $a and $b is $mul"
+
