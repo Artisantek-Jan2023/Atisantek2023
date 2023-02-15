@@ -1,0 +1,35 @@
+#1. Hava a shell script name logoff.sh i want to run this script on every working day at 6pm what is the command?
+------>crontab -e
+------>0 18 * * 1-5 sh logooff.sh
+
+2. Write a shell script for creating directory directory name should be Init  in that you should add a file in that file 
+you have to run few commands related to netstat.
+------->netstat.sh
+
+3. Have a file name .TXT it's created by HR so only  HR should be able to edit others in organization only able to
+ view others are able to do anything  how to you set the permission.
+-------->touch HR.txt
+-------->chmod 644 HR.txt 
+
+4. Write a Shell script to mutiply without using * ?
+------>xtwo.sh
+
+5. command to find all the files that are created in last ten days.
+------>find -type f -mtime -10
+
+6. What is shared library in Linux.
+------>In Linux, a shared library is a collection of pre-compiled, reusable code that can be shared among multiple programs.
+ It is also referred to as a dynamic link library or a shared object.
+
+When a program needs to use a function or a piece of code that is present in a shared library, it dynamically links to the library at runtime.
+ This means that the code in the library is loaded into the memory and made available for the program to use. This dynamic linking allows
+ multiple programs to share the same code, reducing the memory footprint and improving performance.
+
+Shared libraries are commonly used in Linux for system libraries, such as those that handle graphics, input/output, or network operations.
+ Applications can also make use of shared libraries to access common functions and utilities.
+
+Shared libraries are typically stored in the /lib or /usr/lib directories in Linux. They have a filename extension of .so, which stands for shared object.
+ The ldconfig command is used to update the shared library cache and make newly installed libraries available to the system.
+
+7. Write a shell script for creating a user account.
+------->usr.sh
