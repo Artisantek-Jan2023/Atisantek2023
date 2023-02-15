@@ -12,3 +12,4 @@ do
 done
 
 echo "The product of numbers is $product"
+echo "hi shruthi"
