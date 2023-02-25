@@ -1,0 +1,122 @@
+Assignment 2023 02 11 - Pranav
+pull1 - update
+#=========================================
+#1) file - logoff.sh and crontab
+
+touch logoff.sh
+
+crontab -e
+# everyday at 6pm below script will be executed
+00 18 * * * logoff.sh
+#=========================================
+# sudo yum install net-tools - to be installed
+
+#!/bin/bash
+#set -x
+
+rm -r  port_dir
+mkdir port_dir
+
+cd port_dir
+touch port.sh
+
+#!/bin/bash
+
+echo "1   --> to show tcp ports"
+echo "2   --> to show udp ports"
+echo "3   --> to show listning unix ports"
+
+echo "Choose the number"
+read n
+
+case $n in
+1) echo "tcp  ports"
+echo "The command is netstat -at"
+netstat -at
+echo "tcp ports are stored in port/tcp_ports file"
+netstat -at | cat > tcp_ports
+
+;;
+2) echo "to show udp ports "
+echo "The command is netstat -lu "
+netstat -lu
+echo "udp ports are  saved  in port/udp_ports file"
+netstat -lu | cat > udp_ports
+;;
+3) echo "to show listning unix ports "
+echo "The command is netstat -lx "
+netstat -lx
+echo "listning unix ports are  saved  in port/unix_ports file"
+netstat -lx | cat > unix_ports
+;;
+*) echo "Invalid Input"
+;;
+esac
+
+
+#=========================================
+#3) HR creates file and has permission to edit and for rest it is readonly
+
+# create a new user HR
+sudo useradd HR 
+# add HR to sudoers list
+ 
+ sudo visudo /etc/sudoers
+# add the below line 
+  %HR        ALL=(ALL)       NOPASSWD: ALL
+
+# switch user to HR
+
+sudo su HR
+
+sudo touch name.txt
+#permit read/wrtie for HR and read for others
+sudo chmod 644 name.txt
+exit
+#=========================================
+
+
+# product fo the two numbers without using *
+
+#!/bin/bash
+echo " enter first number "
+read n1
+echo " enter second number "
+read n2
+
+echo "$n1 and $n2 are the numbers entered"
+
+x=0
+while [ $n1 -gt 0 ]; do
+        x=`expr $x + $n2`
+        n1=`expr $n1 - 1`
+done
+
+echo "product of the entered numbers is equal to $x"
+
+#=========================================
+# command to find the files created created in last ten days.
+
+find -mtime -10
+#=========================================
+
+# Shared library
+shared libraries are libraries that are loaded by programs when they start. 
+When a shared library is installed properly, all programs that start afterwards automatically use the new shared library
+
+#=========================================
+
+# to create a shell script for or creating a user account
+
+#!/bin/bash
+
+echo "Enter the user name"
+
+read n
+
+echo "user account in the name of $n is created"
+
+sudo useradd $n
+
+
+
